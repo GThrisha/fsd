@@ -1,0 +1,33 @@
+.container{
+       
+        /* width:30%; */
+        /* background-color: lightblue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+
+}
+.container h3{
+    width:10%;
+    justify-content: center;
+    align-items: center;
+}
+.child1{
+    background-color: aquamarine;
+    border: 1px solid brown;
+    width:30%;
+}
+.child2{
+    background-color: azure;
+    border: 1px solid blue;
+    width:30%;
+}
+.child3{
+    background-color: bisque;
+    border: 1px solid yellow;
+    width:30%;
+}
+h2{
+    justify-content: center;
+}

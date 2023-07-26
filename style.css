@@ -1,0 +1,85 @@
+/* .query{
+    background-color: grey;
+    border: 1px solid black;
+}
+#gender{
+    background-color: grey;
+    border: 1px solid black;
+}
+.edu{
+    background-color: grey;
+    border: 1px solid black;
+}
+#details{
+    background-color: grey;
+    border: 1px solid black;
+}
+ */
+
+ /* margin is external space */
+/* padding is internal space */
+ /* .box1{
+    height: 100px;
+    width:200px;
+    background-color: red;
+    margin-bottom:10px;
+    padding: 10px;
+ }
+ .box2{
+    height: 200px;
+    width:200px;
+    background-color: blue;
+ } */
+
+ html,body{
+    height: 100%;
+    width: 100%;
+  }
+  *{
+     margin: 0;
+     padding: 0;
+  }
+  .header{
+    background-color: lightblue;
+    margin-bottom: 5px;
+    height: 100px;
+  }
+  #education-details{
+    background-color: lightgrey;
+    margin-bottom:5px;
+    height:100px;
+  }
+
+  /* textalign */
+  /* display: flex*/ 
+  /* display flex is applied on parent but effects are on children */
+  /* justify-content:place your element anywhere horizontally  */
+  /* align-items:place your element anywhere vertically  */
+  .container{
+    display: flex;
+    /* justify-content: center; */
+    height:300px;
+    /* align-items: center;
+    flex-direction: column; */
+  }
+  /* .container h4{
+    margin-right:3px;
+  }
+ */
+    .child1{
+        height:300px;
+        width:20%;
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .child2{
+        height:300px;
+        width:80%;
+        background-color: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
