@@ -1,3 +1,18 @@
-.line{
-    text-decoration:none;
+ul{
+    padding:0;
+    list-style: none;
+    background-color: azure;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    display: block;
+    padding: 10px 25px;
+    color:black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:burlywood;
+    background-color: #ffccdd;
 }
