@@ -1,0 +1,82 @@
+.box1{
+    width:50px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: azure;
+    /* flex-grow: 1; */
+    /* after placing remaining boxes remaining space is occupied by box1 */
+    flex-shrink: 5;
+    /* box 1 shrinks */
+
+}
+.box2{
+    width:50px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: azure;
+    /* flex-grow: 1;
+    after placing remaining boxes remaining space is occupied by box2 */
+    /* margin:5px; */
+}
+.box3{
+    width:50px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: azure;
+    /* flex-grow: 1; */
+    /* after placing remaining boxes remaining space is occupied by box3*/
+}
+.container{
+    width:300px;
+    height:300px;
+    border: 2px solid black;
+    display:flex;  /* boxes come side by side*/
+    /* flex-direction: column; 
+       boxes come one after the other */
+
+    /* flex-direction: row;  boxes come side by side */
+
+    /* justify-content: flex-start;  all boxes come to starting */
+
+    /* justify-content: flex-end;      all boxes go to ending in top right corner */
+
+     /*  all boxes comes to middle */
+     /* justify-content: center;   */
+
+     /* firstbox-left corner, second in the middle,third in the right corner */
+     /* justify-content: space-between; */
+
+    /* all boxes will have spaces around them,first box have space from left corner */
+     /* justify-content: space-around; */
+
+    /* evenly distributes space b/w boxes */
+     /* justify-content: space-evenly; */
+
+    /* stays on the top of the container */
+     /* align-items: flex-start; */
+
+     /* all boxes will be there at the bottom line */
+     /* align-items: flex-end; */
+
+    /* all boxes present at middle of cross axis */
+     /* align-items: center; */
+
+    /* all boxes stay at top baseline */
+     /* align-items: baseline; */
+
+    /* flex-wrap: nowrap;     */
+    /* all boxes come in same line */
+
+    /* flex-wrap: wrap;
+    align-content: flex-end;     */
+      /* all boxes are in the bottom baseline */
+    /* sufficient no of boxes are placed in top and remaining are placed in the next line */
+    /* align-content is same as align-items used when wrap */
+    /* gap: 1em;  */
+    /* to keep some space b/w boxes */
+
+
+
+    
+
+}
